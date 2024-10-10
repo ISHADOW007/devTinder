@@ -4,7 +4,7 @@
   "description": "tinder for devs",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/app.js"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "nodejs",
@@ -13,7 +13,8 @@
   "author": "satyam govind rao",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0"
